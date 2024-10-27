@@ -2,6 +2,7 @@
   title: DavideBri
   description: >-
     just a personal blog
+  googlewebfonts: Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
   lang: en-US
   timezone: Rome
   repo: https://github.com/DavideBri/DavideBri.github.io # site repo [optional]
@@ -15,8 +16,6 @@
   twitter: DavideBri # twitter username
   email: davidebrienza@pm.me
 
-# Font Settings
-googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
 url: "webcomtop.github.io" #
