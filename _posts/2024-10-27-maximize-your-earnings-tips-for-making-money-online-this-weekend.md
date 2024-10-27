@@ -2,7 +2,7 @@
 layout: post
 title: Maximize Your Earnings: Tips for Making Money Online This Weekend
 description: Maximize your earnings this weekend with actionable tips for making money online. From freelancing and online surveys to selling unused items and affiliate marketing, discover how to boost your income quickly and effectively.
-summary: This article provides a comprehensive guide on how to maximize your earnings online over the weekend. It covers various strategies, including freelancing, participating in online surveys, selling unused items, affiliate marketing, online tutoring, and creating digital products. Each method includes practical steps and tips to help you start earning money quickly. By taking action this weekend, you can enhance your financial situation and achieve your financial goals.
+summary: 
 tags: Business
 ---
 
@@ -61,7 +61,9 @@ If you have a blog or a strong social media presence, affiliate marketing can be
 ## 5. Offer Online Tutoring
 
 If you have expertise in a specific subject, online tutoring can be a fulfilling way to make money. Platforms like **Chegg** and **Tutor.com** allow you to connect with students who need help.
+
 {% include ads3.html %}
+
 ### How to Start:
 - Create a profile on a tutoring platform.
 - Set your availability for sessions over the weekend.
