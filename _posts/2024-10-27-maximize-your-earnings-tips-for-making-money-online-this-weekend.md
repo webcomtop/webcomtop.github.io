@@ -32,7 +32,9 @@ Online surveys are an easy way to earn extra cash without much time commitment. 
 - Sign up for multiple survey sites to increase opportunities.
 - Complete your profile accurately to receive relevant surveys.
 - Dedicate specific time slots to complete surveys efficiently.
+
 {% include ads2.html %}
+
 ## 3. Sell Unused Items
 
 Cleaning out your home can not only declutter your space but also provide an opportunity to make money. Use online marketplaces to sell items you no longer need.
