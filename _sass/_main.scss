@@ -155,7 +155,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: var(--text-font),monospace;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
