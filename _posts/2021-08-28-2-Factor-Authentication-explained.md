@@ -6,7 +6,7 @@ summary: What's a 2FA and how it works.
 tags: security
 ---
 
-
+{% include ads1.html %}
 Everybody nowadays experienced at least once, after inserting the login credentials to enter a website, the other "tedious" step of writing a temporary code, sent via text messages as token or generated via an authentication app (2FA).
 
 This last step can save your accounts to be hacked. Because it's a One-Time 6 digit code and expires in less than a minute, can offer a second layer of security.
