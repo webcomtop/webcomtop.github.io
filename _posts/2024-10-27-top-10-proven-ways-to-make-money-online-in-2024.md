@@ -27,7 +27,7 @@ Affiliate marketing involves promoting products and earning a commission for eac
 - Choose a niche that you are passionate about.
 - Join affiliate programs like **Amazon Associates** or **ShareASale**.
 - Create engaging content that naturally incorporates your affiliate links.
-
+{% include ads2.html %}
 ## 3. Online Courses and E-books
 
 If you have expertise in a specific field, consider creating and selling online courses or e-books. Platforms like **Teachable** and **Udemy** make it easy to reach a global audience.
@@ -49,7 +49,7 @@ Dropshipping allows you to sell products without holding inventory. You set up a
 ## 5. Virtual Assistant
 
 As businesses move online, the demand for virtual assistants (VAs) has surged. VAs handle tasks like email management, social media, and customer service.
-
+{% include ads3.html %}
 ### How to Start:
 - Identify your skills (e.g., communication, organization).
 - Create a profile on platforms like **Belay** or **Zirtual**.
