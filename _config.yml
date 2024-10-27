@@ -17,9 +17,9 @@
   email: davidebrienza@pm.me
 
 # URL settings
-url: "DavideBri.github.io" #
+url: "webcomtop.github.io" #
 baseurl: # leave blank if not wishd
-permalink: "DavideBri.github.io/"
+permalink: "webcomtop.github.io/"
 permalink: pretty 
 
 
