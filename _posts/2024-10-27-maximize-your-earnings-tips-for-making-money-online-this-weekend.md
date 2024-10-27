@@ -33,7 +33,6 @@ Online surveys are an easy way to earn extra cash without much time commitment. 
 - Complete your profile accurately to receive relevant surveys.
 - Dedicate specific time slots to complete surveys efficiently.
 
-{% include ads2.html %}
 
 ## 3. Sell Unused Items
 
@@ -62,7 +61,6 @@ If you have a blog or a strong social media presence, affiliate marketing can be
 
 If you have expertise in a specific subject, online tutoring can be a fulfilling way to make money. Platforms like **Chegg** and **Tutor.com** allow you to connect with students who need help.
 
-{% include ads3.html %}
 
 ### How to Start:
 - Create a profile on a tutoring platform.
