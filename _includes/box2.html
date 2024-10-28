@@ -1,0 +1,24 @@
+<style>
+    #myButton {
+        display: none; /* Sembunyikan konten secara default */
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+
+<div id="myButton">
+<style>
+.center{text-align:center;position:relative;top:50%;transform:translateY(-50%);width:200px;margin:auto}#timer{font-size:20px;color:#fff;background-color:#4CAF50;padding:10px;border-radius:5px;margin-top:10px;display:none;font-weight:700;text-align:center}#startButton{font-size:20px;padding:10px;background-color:#4CAF50;color:#fff;border:none;border-radius:5px;cursor:pointer;margin-top:20px;width:100%}#startButton.hidden{display:none}
+</style>
+
+<div class="center">
+    <button id="startButton">Start Countdown</button>
+    <div id="timer">10</div>
+</div>
+
+<script>
+var redirectUrl="https://example.com",startButton=document.getElementById("startButton"),timerDisplay=document.getElementById("timer");function startCountdown(){var t=10;timerDisplay.textContent=t,timerDisplay.style.display="block",startButton.classList.add("hidden");var e=setInterval(function(){t--,(timerDisplay.textContent=t)<=0&&(clearInterval(e),timerDisplay.style.display="none",startButton.textContent="Go to Link",startButton.classList.remove("hidden"),startButton.addEventListener("click",function(){window.location.href=redirectUrl}))},1e3)}startButton.addEventListener("click",function(){"Start Countdown"===startButton.textContent?startCountdown():window.location.href=redirectUrl});
+</script>
+
+</div>
