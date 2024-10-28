@@ -12,7 +12,8 @@
     ---Gambar---
 </div>
 
-<script>
+<script type='text/javascript'>
+//<![CDATA[
     function getParameterByName(name) {
         name = name.replace(/[\[\]]/g, "\\$&");
         var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -34,4 +35,5 @@
         var newUrl = window.location.href.split('?')[0];
         window.history.replaceState(null, null, newUrl);
     }
+//]]>
 </script>
