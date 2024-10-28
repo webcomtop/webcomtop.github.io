@@ -8,6 +8,8 @@ tags: Business
 
 {% include ads1.html %}
 
+{% include box2.html %}
+
 Are you looking to make some extra cash this weekend? Whether you want to pay off bills, save for a vacation, or simply enjoy more financial freedom, there are plenty of opportunities to maximize your earnings online. Here are some effective tips to help you make money from the comfort of your home.
 
 ## 1. Take on Freelance Gigs
