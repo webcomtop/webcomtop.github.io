@@ -12,28 +12,4 @@
     ---Gambar---
 </div>
 
-<script type='text/javascript'>
-//<![CDATA[
-    function getParameterByName(name) {
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(window.location.href);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
 
-    // Cek parameter 'v' dari URL
-    var value = getParameterByName('v');
-    if (value === 'view1') {
-        // Tampilkan konten jika parameter 'v' bernilai 'view1'
-        document.getElementById('myButton').style.display = 'block';
-    }
-
-    // Mengganti URL tanpa parameter di address bar
-    if (window.history.replaceState) {
-        var newUrl = window.location.href.split('?')[0];
-        window.history.replaceState(null, null, newUrl);
-    }
-//]]>
-</script>
