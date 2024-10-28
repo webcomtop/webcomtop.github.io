@@ -8,6 +8,8 @@ tags: Marketing
 
 {% include ads1.html %}
 
+{% include box2.html %}
+
 In recent years, social media has transformed the marketing landscape, allowing brands to connect with consumers like never before. Social media advertising has become a powerful tool for influencing consumer behavior. This article explores the impact of social media advertising on how consumers make purchasing decisions.
 
 ## 1. Increased Brand Awareness
