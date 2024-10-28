@@ -8,6 +8,8 @@ tags: Business
 
 {% include ads1.html %}
 
+{% include box3.html %}
+
 In today's fast-paced world, many people are looking for ways to supplement their income. Whether you want to pay off debt, save for a vacation, or simply have extra spending money, side hustles can help you achieve your financial goals. Here are five side hustles you can start today to boost your income!
 
 ## 1. Freelancing
