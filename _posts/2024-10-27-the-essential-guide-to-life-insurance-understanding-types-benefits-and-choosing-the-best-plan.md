@@ -8,6 +8,8 @@ tags: Insurance
 
 {% include ads1.html %}
 
+{% include box2.html %}
+
 Life insurance is a critical component of financial planning, providing security for your loved ones in the event of your passing. This essential guide will help you understand the various types of life insurance, their benefits, and how to choose the best plan for your needs.
 
 ## What is Life Insurance?
