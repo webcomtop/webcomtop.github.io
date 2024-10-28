@@ -52,25 +52,8 @@ layout: compress
 </script>
 
 
-  <script>
-    function getParameterByName(name) {
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(window.location.href);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-
-    var value = getParameterByName('v');
-    if (value === 'view1') {
-        document.getElementById('myButton').style.display = 'block';
-    }
-
-    if (window.history.replaceState) {
-        var newUrl = window.location.href.split('?')[0];
-        window.history.replaceState(null, null, newUrl);
-    }
+<script>
+function getParameterByName(e){e=e.replace(/[\[\]]/g,"\\$&");e=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(window.location.href);return e?e[2]?decodeURIComponent(e[2].replace(/\+/g," ")):"":null}var newUrl,value=getParameterByName("v"),validViews=["view1","view2","view3"];validViews.includes(value)&&(document.getElementById("myButton").style.display="block"),window.history.replaceState&&(newUrl=window.location.href.split("?")[0],window.history.replaceState(null,null,newUrl));
 </script>
   
 </body>
