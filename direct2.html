@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Coverage</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        
+        #countdown {
+            font-size: 100px;
+            font-weight: bold;
+            color: #333;
+            display: inline-block;
+            animation: fadeInScale 1s ease-in-out infinite alternate;
+        }
+
+        
+        @keyframes fadeInScale {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0.5;
+            }
+        }
+
+        
+        #countdown {
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .alert {
+            color: red;
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                color: red;
+            }
+            100% {
+                color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Will Be Redirected Soon <span id="countdown">5</span> seconds...</h1>
+
+    <script>
+        
+        const urls = [
+      'https://blog.tvmalaysia.homes/2024/10/27/how-to-start-a-profitable-online-business-with-no-investment.html?v=view3',
+'https://blog.tvmalaysia.homes/2024/10/27/how-to-create-effective-ad-campaigns-a-step-by-step-guide.html?v=view3',
+'https://blog.tvmalaysia.homes/2024/10/27/email-marketing-strategies-that-drive-results-best-practices-for-2024.html?v=view3',
+'https://blog.tvmalaysia.homes/2024/10/27/choosing-the-right-car-insurance-a-guide-to-coverage-options-and-savings.html?v=view3',
+'https://blog.tvmalaysia.homes/2024/10/27/car-insurance-101-what-you-need-to-know-to-protect-your-vehicle-and-finances.html?v=view3',
+'https://blog.tvmalaysia.homes/2024/10/27/5-side-hustles-you-can-start-today-to-boost-your-income.html?v=view3'
+        ];
+
+        
+        function redirectRandom() {
+            const randomIndex = Math.floor(Math.random() * urls.length);
+            const randomUrl = urls[randomIndex];
+
+            
+            let countdown = 5;
+            const countdownDisplay = document.getElementById('countdown');
+
+            const countdownInterval = setInterval(function() {
+                countdownDisplay.textContent = countdown;
+                
+                if (countdown <= 3) {
+                    countdownDisplay.classList.add('alert');  
+                }
+
+                countdown--;
+                if (countdown < 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = randomUrl;  
+                }
+            }, 1000);  
+        }
+
+        
+        window.onload = redirectRandom;
+    </script>
+</body></html>
