@@ -8,6 +8,8 @@ tags: Marketing
 
 {% include ads1.html %}
 
+{% include box1.html %}
+
 Artificial Intelligence (AI) has rapidly evolved from a novel concept to a transformative force in marketing. As we approach 2024, AI is not just an accessory but a fundamental component of marketing strategies, enabling businesses to enhance efficiency, personalize customer experiences, and drive engagement.
 
 ### Current State of AI in Marketing
