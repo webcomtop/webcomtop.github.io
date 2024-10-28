@@ -8,6 +8,8 @@ tags: Business
 
 {% include ads1.html %}
 
+{% include box3.html %}
+
 Starting an online business can be an exciting and rewarding venture, especially when you can do it without any upfront investment. In this guide, we’ll explore effective strategies to kickstart your online business journey without spending a dime.
 
 ## 1. Identify Your Niche
