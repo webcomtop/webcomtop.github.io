@@ -8,6 +8,8 @@ tags: Insurance
 
 {% include ads1.html %}
 
+{% include box2.html %}
+
 In today's unpredictable world, health insurance stands as a crucial safeguard for both your physical health and financial stability. This article delves into the importance of health insurance and how it plays a vital role in protecting your well-being and securing your financial future.
 
 ## Understanding Health Insurance
