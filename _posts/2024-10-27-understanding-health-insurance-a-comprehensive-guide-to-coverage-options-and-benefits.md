@@ -8,6 +8,8 @@ tags: Insurance
 
 {% include ads1.html %}
 
+{% include box1.html %}
+
 Health insurance is a crucial aspect of modern life, providing financial protection against medical expenses. However, navigating the complexities of health insurance can be overwhelming. This comprehensive guide will help you understand the various coverage options and benefits available to you.
 
 ## What is Health Insurance?
