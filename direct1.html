@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Coverage</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        
+        #countdown {
+            font-size: 100px;
+            font-weight: bold;
+            color: #333;
+            display: inline-block;
+            animation: fadeInScale 1s ease-in-out infinite alternate;
+        }
+
+        
+        @keyframes fadeInScale {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0.5;
+            }
+        }
+
+        
+        #countdown {
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .alert {
+            color: red;
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                color: red;
+            }
+            100% {
+                color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Will Be Redirected Soon <span id="countdown">5</span> seconds...</h1>
+
+    <script>
+        
+        const urls = [
+      'https://blog.tvmalaysia.homes/2024/10/27/the-importance-of-health-insurance-protecting-your-well-being-and-financial-future.html?v=view2',
+'https://blog.tvmalaysia.homes/2024/10/27/the-impact-of-social-media-advertising-on-consumer-behavior.html?v=view2',
+'https://blog.tvmalaysia.homes/2024/10/27/the-essential-guide-to-life-insurance-understanding-types-benefits-and-choosing-the-best-plan.html?v=view2',
+'https://blog.tvmalaysia.homes/2024/10/27/maximize-your-earnings-tips-for-making-money-online-this-weekend.html?v=view2',
+'https://blog.tvmalaysia.homes/2024/10/27/life-insurance-explained-securing-your-family-s-future-with-the-right-policy.html?v=view2'
+        ];
+
+        
+        function redirectRandom() {
+            const randomIndex = Math.floor(Math.random() * urls.length);
+            const randomUrl = urls[randomIndex];
+
+            
+            let countdown = 5;
+            const countdownDisplay = document.getElementById('countdown');
+
+            const countdownInterval = setInterval(function() {
+                countdownDisplay.textContent = countdown;
+                
+                if (countdown <= 3) {
+                    countdownDisplay.classList.add('alert');  
+                }
+
+                countdown--;
+                if (countdown < 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = randomUrl;  
+                }
+            }, 1000);  
+        }
+
+        
+        window.onload = redirectRandom;
+    </script>
+</body></html>
