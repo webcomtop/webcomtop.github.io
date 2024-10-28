@@ -8,6 +8,8 @@ tags: Marketing
 
 {% include ads1.html %}
 
+{% include box3.html %}
+
 Creating effective ad campaigns is essential for businesses looking to increase brand awareness, generate leads, and drive sales. In this step-by-step guide, we will explore the key components of a successful ad campaign, from initial planning to execution and analysis.
 
 ## Step 1: Define Your Goals
