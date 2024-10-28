@@ -8,6 +8,8 @@ tags: Business
 
 {% include ads1.html %}
 
+{% include box1.html %}
+
 In today’s digital age, earning passive income online has become a popular goal for many individuals seeking financial freedom. This ultimate guide will walk you through various strategies to generate passive income, allowing you to earn money while you sleep!
 
 ## What is Passive Income?
